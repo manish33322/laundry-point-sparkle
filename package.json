@@ -6,7 +6,7 @@
   "scripts": {
 	  "start": "vite",
     "dev": "vite dev",
-    "build": "vite build",
+    "build": "NITRO_PRESET=github-pages vite build",
     "build:dev": "vite build --mode development",
     "preview": "vite preview",
     "lint": "eslint .",
